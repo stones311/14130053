@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="請選擇主餐"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="每份套餐需選擇一項主餐"
+            android:textColor="?android:attr/textColorSecondary"
+            android:textSize="14sp" />
+
+        <RadioGroup
+            android:id="@+id/rgMainMeal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp">
+
+            <RadioButton
+                android:id="@+id/rbMeal1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="12dp"
+                android:text="經典美式牛肉堡 ($130)"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/rbMeal2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="12dp"
+                android:text="勁辣雞腿堡 ($120)"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/rbMeal3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="12dp"
+                android:text="黃金鱈魚堡 ($110)"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/rbMeal4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="12dp"
+                android:text="奶油培根義大利麵 ($140)"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/rbMeal5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="12dp"
+                android:text="日式炸豬排飯 ($150)"
+                android:textSize="16sp" />
+        </RadioGroup>
+
+    </LinearLayout>
+</ScrollView>
