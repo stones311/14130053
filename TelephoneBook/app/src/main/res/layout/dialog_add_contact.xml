@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <EditText
+        android:id="@+id/etNameInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="請輸入姓名"
+        android:inputType="textPersonName"
+        android:layout_marginBottom="12dp" />
+
+    <EditText
+        android:id="@+id/etPhoneInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="請輸入電話"
+        android:inputType="phone"
+        android:layout_marginBottom="12dp" />
+
+    <EditText
+        android:id="@+id/etEmailInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="請輸入 Email"
+        android:inputType="textEmailAddress" />
+
+</LinearLayout>

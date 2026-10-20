@@ -1,0 +1,5 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme forced to Light. -->
+    <style name="Base.Theme.TelephoneBook" parent="Theme.Material3.Light.NoActionBar">
+    </style>
+</resources>
